@@ -231,6 +231,9 @@ char *hex_to_bin(const char *s, char *bin_buff, int *dest_len)
   return bin_buff;
 }
 
+/// @brief s为空或空格
+/// @param s 
+/// @return 
 bool is_blank(const char *s)
 {
   if (s == nullptr) {
